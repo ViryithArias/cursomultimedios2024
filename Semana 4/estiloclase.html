@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Clase</title>
+    <style>
+        /*Palabra que la encuentra Como palabra base*/
+        /*[class|=primera]{
+            background-color: bisque;
+        }*/ 
+
+
+        /*Palabra que la encuntre mezclada*/
+        /*
+         [class^=primera]{
+            background-color: bisque;
+        }*/
+       
+
+        /*Cuando finalice con la palabra*/
+        /* [class$=primera]{
+            background-color: bisque;
+        }*/
+
+        /*Para cuando contenga una palabra especifica*/
+        [class*=a]{
+            background-color:red;
+        }
+
+        
+        input[type="text"]{
+            width: 120px;
+            margin-top: 10px;
+            margin-bottom: 18px;
+            background-color: lightcoral;
+        }
+
+    </style>
+</head>
+<body>
+    <h2 class="primera-titulo">Titulo</h2>
+    <p class="primera-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iure porro cum possimus facilis nulla incidunt dolore quam nesciunt, doloremque eius vitae quia id odit labore! Error molestias perferendis omnis.</p>
+    <p class="primera">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati libero tenetur omnis dolorem fugiat accusantium amet, nemo delectus eaque illo aliquam, repellat cumque? Perspiciatis vel rerum ratione, accusamus dolorum sit.</p>
+    <p class="primeratest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus blanditiis fugiat obcaecati, mollitia quam dolore rem inventore quibusdam eveniet reprehenderit iste at nostrum nam soluta, optio iusto? Placeat, obcaecati tempora.</p>p
+    <label for="">Nombre</label>
+    <input type="text" name="nombre" id="nombre">
+
+    <label for="">Apellido</label>
+    <input type="text" name="apellido" id="apellido">
+
+
+
+
+</body>
+</html>
